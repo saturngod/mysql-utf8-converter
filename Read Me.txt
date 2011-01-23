@@ -1,0 +1,46 @@
+it contain 3 file
+
+db_setup.php
+----------------
+This is a main file. You just fill the form and you can convert easily.
+
+utf8myconv.php
+------------------
+This is a convertor file. It's can convert zawgyi latin encoding to zawgyi utf8 encoding.
+
+shell_dbsetup.php
+---------------------
+It's for shell script. Sometime, db_setup.php can't run when many table in database. When we use shell it's faster than browser processing.
+
+
+How To Use
+--------------
+
+Upload 3 File and run db_setup.php 
+
+example:
+
+http://www.yourdomain.com/conv/db_setup.php
+
+
+How to run shell_dbsetup
+-------------------------------
+
+Change database name,host,username,password in shell_dbsetup.php
+
+$db_name="databasename";
+$host="database host";
+$username="database username";
+$pwd="database password";
+
+After that run in shell
+
+$php shell_dbsetup.php
+
+
+
+Thank you....
+Any Question mail to
+saturngod@mysteryzillion.com
+
+
